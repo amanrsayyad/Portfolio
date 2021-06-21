@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- FontAwsome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Portfolio</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="services-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#skill" class="navbar__links" id="plan-page">Skill</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#project" class="navbar__links" id="trainers-page">Project</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section  -->
+    <div class="hero" id="home">
+        <div class="hero__content">
+            <h1 class="animate-hero">Hi</h1>
+            <h1 class="animate-hero">I'am aman</h1>
+            <p class="animate-hero">Front-End-Devloper</p>
+            <a href="#project" class="button animate-hero">Projects</a>
+        </div>
+    </div>
+
+    <!-- about Section  -->
+    <div class="about" id="about">
+        <div class="about__container">
+            <div>
+                <p class="topline animate-about">About</p>
+                <h1 class="about__heading animate-about">Aman</h1>
+                <div class="about__features">
+                    <p class="about__feature animate-about">
+                        My name is aman currently pursuing diploma & wanted to make future in web-dev.
+                    </p>
+                    <p class="about__feature animate-about">
+                        Started because i want to know how software companies really works learning web devlopment five
+                        months ago & very passionate towards web-dev.
+
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="./images/About-img.jpg" alt="gym" class="about__img animate-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- social media icon-bar  -->
+    <div class="icon-bar">
+        <a href="https://github.com/amanrsayyad" class="link github" target="blank">
+            <i class="fab fa-github-square"></i> click here to visit 
+        </a>
+        <a href="https://www.linkedin.com/in/aman-sayyad-a488871b0/" class="link linkedin" target="blank">
+            <i class=" fab fa-linkedin"></i> click here to visit
+        </a>
+    </div>
+
+    <!-- skill section  -->
+    <div class="skill" id="skill">
+        <h1 class="animate-skill">Skill</h1>
+        <p class="skill__desc animate-skill">These are my skill in front-end-devlopment</p>
+        <div class="skill__wrapper">
+            <div class="skill__card animate-card">
+                <div class="skill__title">
+                    <img src="./images/html.png" alt="">
+                    <h3>Html</h3>
+                </div>
+                <div class="skill__perks">
+                    <p>Html is sceleton of a code then it is mandetory to learn.</p>
+                    <p>In this markup language i learned about block,inline & anchor tags,div's section & more.</p>
+                </div>
+            </div>
+            <div class="skill__card animate-card">
+                <div class="skill__title">
+                    <img src="./images/css.png" alt="">
+                    <h3>Css</h3>
+                </div>
+                <div class="skill__perks">
+                    <p>To styling my page i learned css</p>
+                    <p>In css i learned was css grid,flexbox display media queries & more.</p>
+                </div>
+            </div>
+            <div class="skill__card animate-card">
+                <div class="skill__title">
+                    <img src="./images/javascript.png" alt="">
+                    <h3>Javascript</h3>
+                </div>
+                <div class="skill__perks">
+                    <p>Javascript is a mind of a dynamic website.</p>
+                    <p>In javascript i learned about DOM,queryselectors,Eventlistners,loops,if-else statements & more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section  -->
+    <div class="project" id="project">
+        <div class="project__wrapper">
+            <div class="project__text animate-project">
+                <p class="topline">Project</p>
+                <h1>Fitmuscle</h1>
+                <p class="project__desc">
+                    This website contain grid layouts & Gsap aniation also javascript.
+                </p>
+                <a href="https://amanrsayyad.github.io/Fitmuscle/" class="button" target="blank">Visit site</a>
+            </div>
+            <div class="project__text animate-project">
+                <h1>Get Colors</h1>
+                <p class="project__desc">
+                    Get color is very good website have highlight nav links when scrolling uses alot of javascript.
+                </p>
+                <a href="https://amanrsayyad.github.io/GetColors/" class="button" target="blank">Visit site</a>
+             </div>
+            <div class="project__text animate-project">
+                <h1>Eid-al-fitr</h1>
+                <p class="project__desc">
+                   These is the eid blog with the testmonial section made with help of scroll.js & javascript.
+                </p>
+                <a href="https://amanrsayyad.github.io/EidBlog.github.io/" class="button" target="blank">Visit site</a>
+            </div>
+            <div class="project__text animate-project">
+                <h1>Gsap Page animation</h1>
+                <p class="project__desc">
+                  I made this page animation with the help of html,css & gsap ScrollTrigger.
+                </p>
+                <a href="https://amanrsayyad.github.io/GSAPanime/" class="button" target="blank">Visit site</a>
+            </div>
+            <div class="project__text animate-project">
+                <h1>Portfolio</h1>
+                <p class="project__desc">
+                  These wesite made with only css grid, css flexbox with no javascript.
+                </p>
+                <a href="https://amanrsayyad.github.io/Portfolio2/" class="button" target="blank">Visit site</a>
+            </div>
+            <div class="project__card animate-project">
+                <img src="./images/projectCard-1.PNG" alt="person" class="pro__img">
+            </div>
+            <div class="project__card animate-project">
+                <img src="./images/projectCard-2.PNG" alt="person" class="pro__img">
+            </div>
+            <div class="project__card animate-project">
+                <img src="./images/projectCard-3.PNG" alt="person" class="pro__img">
+            </div>
+            <div class="project__card animate-project">
+                <img src="./images/projectCard-4.PNG" alt="person" class="pro__img">
+            </div>
+            <div class="project__card animate-project">
+                <img src="./images/projectCard-5.PNG" alt="person" class="pro__img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Section  -->
+    <div class="email">
+        <div class="email__content">
+            <h1 class="animate-email">Contact</h1>
+            <p class="animate-email">Contact at my email</p>
+            <form action="#" class="animate-email">
+                <div class="form__wrap">
+                    <label for="email">
+                        <input type="email" placeholder="Enter your email" id="email">
+                    </label>
+                    <button class="button" type="submit">Email</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section  -->
+    <div class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>Portfolio</h1>
+                <p>Aman Sayyad Front-End-Devloper.</p>
+                <p id="phone">9325423557</p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Contact Us</h2>
+                <a href="/" class="footer__link">Contact</a>
+                <a href="/" class="footer__link">Support</a>
+                <a href="/" class="footer__link">Donate</a>
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <h2 class="footer__title">Need landing page</h2>
+                <a href="/" class="footer__link">Custom pages</a>
+                <a href="/" class="footer__link">Plans</a>
+                <a href="/" class="footer__link">FAQ</a>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a href="/" class="footer__link">Github</a>
+                <a href="/" class="footer__link">Linkedin</a>
+                <a href="/" class="footer__link">Email</a>
+                <a href="/" class="footer__link">Instagram</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- script  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
